@@ -1,0 +1,422 @@
+<!DOCTYPE html><html lang="zh-hans" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Steven的博客 - 技术交流 分享快乐</title><meta name="author" content="Steven"><meta name="copyright" content="Steven"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Steven的个人博客 技术交流 记录生活 分享快乐">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Steven的博客">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="Steven的博客">
+<meta property="og:description" content="Steven的个人博客 技术交流 记录生活 分享快乐">
+<meta property="og:locale">
+<meta property="og:image" content="http://example.com/img/favicon.png">
+<meta property="article:author" content="Steven">
+<meta property="article:tag" content="Steven的个人博客 技术交流 记录生活 分享快乐">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/favicon.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/page/2/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: false,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Steven的博客',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-12-07 14:25:34'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/rightMenu.css"><link rel="stylesheet" href="/css/font.css"><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/nav-menu.css"><link rel="stylesheet" href="/css/categories.css"><link rel="stylesheet" href="/css/flink.css"><link rel="stylesheet" href="/css/aside.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiper.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiperstyle.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.8/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/favicon.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-layer-group"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-bookmark"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-cog"></i><span> 工具</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tools/password/"><span> 强密码生成</span></a></li><li><a class="site-page child" href="/tools/test/"><span> 设备性能测试</span></a></li><li><a class="site-page child" href="/tools/data-waster/"><span> 流量消耗器</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-address-book"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-bars"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/more/play"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/more/fluid-simulation"><i class="fa-fw fa fa-industry"></i><span> 液体</span></a></li><li><a class="site-page child" href="/more/air-conditioner"><i class="fa-fw fa fa-thermometer-full"></i><span> 小空调</span></a></li><li><a class="site-page child" href="/more/win12/"><i class="fa-fw fa-brands fa-windows"></i><span> Windows</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-info"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-user-circle"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/license/"><i class="fa-fw fa fa-copyright"></i><span> 声明</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-earth-asia"></i><span> 节点</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.steven.tk/"><span> Vercel</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://gh.blog.steven.tk/"><span> Github</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://cf.blog.steven.tk/"><span> Cloudflare</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://netlify.blog.steven.tk/"><span> Netlify</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/home.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Steven的博客</a></span><div id="menus"></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fas fa-layer-group"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-bookmark"></i><span> 分类</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-cog"></i><span> 工具</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/tools/password/"><span> 强密码生成</span></a></li><li><a class="site-page child" href="/tools/test/"><span> 设备性能测试</span></a></li><li><a class="site-page child" href="/tools/data-waster/"><span> 流量消耗器</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-address-book"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/contact/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-bars"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/more/play"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li><li><a class="site-page child" href="/more/fluid-simulation"><i class="fa-fw fa fa-industry"></i><span> 液体</span></a></li><li><a class="site-page child" href="/more/air-conditioner"><i class="fa-fw fa fa-thermometer-full"></i><span> 小空调</span></a></li><li><a class="site-page child" href="/more/win12/"><i class="fa-fw fa-brands fa-windows"></i><span> Windows</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-info"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fa fa-user-circle"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/license/"><i class="fa-fw fa fa-copyright"></i><span> 声明</span></a></li></ul></div><div class="menus_item"><a class="site-page group hide" href="javascript:void(0);"><i class="fa-fw fa fa-earth-asia"></i><span> 节点</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.steven.tk/"><span> Vercel</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://gh.blog.steven.tk/"><span> Github</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://cf.blog.steven.tk/"><span> Cloudflare</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://netlify.blog.steven.tk/"><span> Netlify</span></a></li></ul></div></div><div id="nav-right"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i></a></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Steven的博客</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/Steven-WZH" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:1066106590@qq.com" target="_blank" title="邮箱"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/p/hexo-valine/" title="Hexo | Valine评论"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/hexo-valine/hexo-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo | Valine评论"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hexo-valine/" title="Hexo | Valine评论">Hexo | Valine评论</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-13T11:08:11.000Z" title="Created 2022-11-13 19:08:11">2022-11-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">部署ValineLeanCloud在使用Valine之前，我们首先需要注册一个LeanCloud账户(建议使用国际版)，并创建一个App
+由于一般个人博主的评论并不会太多，因此我们选择免费的“开发版”应用就可以了。
+Appid &amp; Appkey创建好作为存储评论的应用数据库之后，
+在 你的应用-&gt;设置-&gt;应用凭证 中记录好给出的 App ID 和 App Key  
+需要注意的是，必须先在 你的应用-&gt;设置-&gt;安全中心 将用于Valine的网站域名加入“安全域名”中
+否则之后的Valine评论框将无法使用。
+域名(必须)在 你的应用-&gt;设置-&gt;安全中心 中根据提示分别绑定 api访问域名 和 云引擎、ClientEngine 域名 
+如果没有域名可以免费注册一个点此前往
+
+修改Matery主题配置文件填入Appid Appkey 以及Api访问域名
+123456789101112valine:  enable: true  appId:  # 你的appid  appKey:  # 你的appkey  serverURLs: 你绑定的Api访 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/hexo-matery-details/" title="Hexo | Matery主题 | 细节优化"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/hexo-matery-details/hexo-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo | Matery主题 | 细节优化"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hexo-matery-details/" title="Hexo | Matery主题 | 细节优化">Hexo | Matery主题 | 细节优化</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-12T11:08:11.000Z" title="Created 2022-11-12 19:08:11">2022-11-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">去掉banner的颜色动画在theme主题目录下，找到matery.css文件,ctrl+F快捷键查找.bg-cover:after，注释掉即可。
+1234/* .bg-cover:after &#123;    -webkit-animation: rainbow 60s infinite;    animation: rainbow 60s infinite;&#125; */
+
+修改导航栏、页脚及文章卡片标签的颜色在matery.css中找到.bg-color,修改即可：
+123.bg-color &#123;    background-image: linear-gradient(to right, #3f1b07 0%, #3f1b07 100%);/*咖啡色*/&#125;</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/hexo-matery/" title="Hexo | Matery主题 | 中文帮助文档"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/hexo-matery/hexo-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo | Matery主题 | 中文帮助文档"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hexo-matery/" title="Hexo | Matery主题 | 中文帮助文档">Hexo | Matery主题 | 中文帮助文档</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-12T11:08:11.000Z" title="Created 2022-11-12 19:08:11">2022-11-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">特性
+简单漂亮，文章内容美观易读
+Material Design 设计
+响应式设计，博客在桌面端、平板、手机等设备上均能很好的展现
+首页轮播文章及每天动态切换 Banner 图片
+瀑布流式的博客文章列表（文章无特色图片时会有 24 张漂亮的图片代替）
+时间轴式的归档页
+词云的标签页和雷达图的分类页
+丰富的关于我页面（包括关于我、文章统计图、我的项目、我的技能、相册等）
+可自定义的数据的友情链接页面
+支持文章置顶和文章打赏
+支持 MathJax
+TOC 目录
+可设置复制文章内容时追加版权信息
+可设置阅读文章时做密码验证
+Gitalk、Gitment、Valine 和 Disqus 评论模块（推荐使用 Gitalk）
+集成了不蒜子统计、谷歌分析（Google Analytics）和文章字数统计等功能
+支持在首页的音乐播放和视频播放功能
+支持emoji表情，用markdown emoji语法书写直接生成对应的能跳跃的表情。
+支持 DaoVoice、Tidio 在线聊天功能。
+
+下载本主题推荐使用 Hexo 5.0.0 及以上的版本。如果，你已经有一个自己的 Hexo 博客了，建议你将 Hex ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/hexo-matery-custom-loading/" title="Hexo | Matery主题 | 自定义加载动画"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/hexo-matery-custom-loading/hexo-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo | Matery主题 | 自定义加载动画"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hexo-matery-custom-loading/" title="Hexo | Matery主题 | 自定义加载动画">Hexo | Matery主题 | 自定义加载动画</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-10T11:08:11.000Z" title="Created 2022-11-10 19:08:11">2022-11-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">创建加载动画文件想要添加页面加载动画，那么第一步当然是的创建一个对应的文件
+结构代码在 themes&gt;hexo-theme-matery&gt;layout&gt;_widget 下创建一个 loading.ejs 文件，将下面的代码 cv 进去
+12345678910111213141516171819202122&lt;% if (theme.preloader.enable) &#123; %&gt;  &lt;div id=&quot;loading-box&quot;&gt;    &lt;div class=&quot;loading-left-bg&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;loading-right-bg&quot;&gt;&lt;/div&gt;    &lt;div class=&quot;spinner-box&quot;&gt;      &lt;div class=&quot;configure-border-1&quot;&gt;        &lt;div class=&quot;co ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/hexo-matery-direct-comment/" title="Hexo | Matery主题 | 直达评论模块"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/hexo-matery-direct-comment/hexo-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo | Matery主题 | 直达评论模块"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hexo-matery-direct-comment/" title="Hexo | Matery主题 | 直达评论模块">Hexo | Matery主题 | 直达评论模块</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-10T11:08:11.000Z" title="Created 2022-11-10 19:08:11">2022-11-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">为了方便查看评论，添加一个直达评论功能的按钮
+结构代码在 themes&gt;hexo-theme-matery&gt;layout&gt;_partial 中新建一个文件 back-comment.ejs ，添加下面的结构代码
+123456&lt;!-- 直达评论 --&gt;&lt;div id=&quot;to_comment&quot; class=&quot;comment-scroll&quot;&gt;  &lt;a class=&quot;btn-floating btn-large waves-effect waves-light&quot; href=&quot;#vcomments&quot; title=&quot;直达评论&quot;&gt;    &lt;i class=&quot;fas fa-comments&quot;&gt;&lt;/i&gt;  &lt;/a&gt;&lt;/div&gt;
+
+样式代码在 themes&gt;hexo-theme-matery&gt;source&gt;css&gt;matery.css 中添加样式代码
+123456 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/game-ravenfield/" title="游戏 | Ravenfield"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/game-ravenfield/ravenfield.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="游戏 | Ravenfield"></a></div><div class="recent-post-info"><a class="article-title" href="/p/game-ravenfield/" title="游戏 | Ravenfield">游戏 | Ravenfield</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-09T10:18:45.000Z" title="Created 2022-11-09 18:18:45">2022-11-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%B8%B8%E6%88%8F/">游戏</a></span></div><div class="content">《战地模拟器》英语：RavenField前往
+Ravenfield是由国外游戏开发者SteelRaven7参照战地风云系列的玩法使用Unity3D引擎制作的一部游戏。
+目前游戏仍处于抢先体验版本(EA).
+系统要求最低配置操作系统：Windows XP SP2处理器：32位，2 GHz或更快内存：4 GB RAM图形：Intel HD 3000DirectX 版本：9.0c存储空间：需要 1 GB 可用空间
+推荐配置操作系统：Windows 7或更新处理器：64位，3 GHz或更快内存：8 GB RAM图形：Geforce GTX 750DirectX 版本：11存储空间：需要 1 GB 可用空间
+亮点游戏玩法多样，易于上手，mod多，载具多等
+买了这个游戏就相当于拥有了所有的3A大作！
+价格在美区为14.99美元(约105人民币).
+但在中国大陆平时仅售48¥，促销时31¥.
+历史最低16¥(2021.3.22).
+价格对中国玩家十分友好.
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/hexo-matery-utterances/" title="Hexo | Matery主题 | 添加utterances评论"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/hexo-matery-utterances/hexo-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo | Matery主题 | 添加utterances评论"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hexo-matery-utterances/" title="Hexo | Matery主题 | 添加utterances评论">Hexo | Matery主题 | 添加utterances评论</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-10-29T11:08:11.000Z" title="Created 2022-10-29 19:08:11">2022-10-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">一、新建Github仓库首先创建一个公开的Github仓库用于存放评论
+若没有Github账户点此注册
+二、安装utterances安装utterances app
+install按钮未登陆Github时不会显示，已安装则显示的是configure
+选择刚刚建好的Github仓库，然后点击安装
+三、配置在repo选项中填写 你的用户名&#x2F;创建的github仓库
+
+在Blog Post ↔️ Issue Mapping选项中选择第一个
+
+【可选项】根据个人需求选择是否为issue打上标签(label)
+
+然后是主题，根据个人喜好选择
+上述步骤填写完成后，最后一栏会根据你前面的操作自动生成配置信息(后面会用到,请复制下来)
+到此，对utterances的配置就完成了，接下来把它应用到Matery主题
+四、添加到Hexo-Matery打开配置文件 themes&#x2F;hexo-theme-matery&#x2F;_config.yml添加配置：
+1234# utterances config, default disabled# utterances 评论模块的配置，默认为不激活 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/mysql-command/" title="MySQL | 常用指令"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/mysql-command/mysql-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MySQL | 常用指令"></a></div><div class="recent-post-info"><a class="article-title" href="/p/mysql-command/" title="MySQL | 常用指令">MySQL | 常用指令</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-10-29T03:45:14.000Z" title="Created 2022-10-29 11:45:14">2022-10-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">常用 SQL 命令SELECTSELECT 命令用于从数据库中查询（选取）数据，它的用法如下：
+12SELECT column1, column2....columnNFROM   table_name;
+
+UPDATEUPDATE 命令用于更新数据库中的数据，它的用法如下：
+123UPDATE table_nameSET column1 = value1, column2 = value2....columnN=valueN[ WHERE  CONDITION ];
+
+DELETEDELETE 命令用于从数据库中删除数据，它的用法如下：
+12DELETE FROM table_nameWHERE  &#123;CONDITION&#125;;
+
+CREATE TABLECREATE TABLE 命令用于创建一个新的数据表，它的用法如下：
+12345678CREATE TABLE table_name(column1 datatype,column2 datatype,column3 datatype,.....columnN datatype,PRIMARY KEY( one or  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/mysql-free/" title="MySQL | 免费数据库推荐[亲测]"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/mysql-free/mysql-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="MySQL | 免费数据库推荐[亲测]"></a></div><div class="recent-post-info"><a class="article-title" href="/p/mysql-free/" title="MySQL | 免费数据库推荐[亲测]">MySQL | 免费数据库推荐[亲测]</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-10-29T03:45:14.000Z" title="Created 2022-10-29 11:45:14">2022-10-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">SQLPub - 免费的MySQL数据库sqlpub.com 提供最新版本、甚至是开发者版本的 MySQL 服务器测试服务。 您可以轻易地 注册免费账号 测试您的应用。例如，您可以测试在MySQL版本升级后您的应用是否依然能够正常运行。 sqlpub.com 也是让您学习并熟悉新版本功能及操作的极佳资源。您将获得最大36000次&#x2F;小时的请求、同时10个连接和500M存储空间
+优点永久500MB永不过期注册方便Mysql版本高在线连接数据库国内访问快
+缺点一个邮箱只能注册一个
+MongoDBMongoDB Atlas 提供 512MB 免费存储额度的在线 MongoDB 数据库服务，因为是商业服务所以有较好的服务保障，正统 MogoDB 公司连接也比较稳定
+优点固定500MB安全运维监控功能齐全永不过期节点多系统备份、还原24×7监控
+缺点数据库为虚拟机共享实例
+db4free.net - 免费的 MySQL 数据库db4free 是比较早的免费在线数据库服务，提供不限空间额度非商业服务，由于没有商业服务背书，db4free不承诺稳定性与数据安全，访问较慢。
+
+切勿用于生产或学 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/p/hexo-blog/" title="Hexo | 搭建博客并上传至Github"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/hexo-blog/hexo-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo | 搭建博客并上传至Github"></a></div><div class="recent-post-info"><a class="article-title" href="/p/hexo-blog/" title="Hexo | 搭建博客并上传至Github">Hexo | 搭建博客并上传至Github</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-09-09T03:45:14.000Z" title="Created 2022-09-09 11:45:14">2022-09-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="content">准备1、一台电脑
+2、[选用]域名
+免费注册及解析域名方法请至：域名
+3 、一个Github账户点此注册
+
+一、安装环境安装Git
+安装Node.js
+
+二、安装检验Win+R，输入cmd
+检测git版本:
+1git --version
+
+检测node.js版本:
+1node -v
+
+检测npm版本:
+1npm -v
+
+
+三、生成初始博客文件在任意文件夹进入cmd(在文件夹路径输入cmd)
+
+安装Hexo:
+1npm install -g hexo-cli
+
+生成blog文件夹:
+1hexo init blog
+
+
+四、本地测试进入blog文件夹:
+1cd blog
+
+启动:
+1hexo s
+
+出现 ‘hexo is running at http://localhost:4000，press ctrl+c to stop’
+即表示成功
+可以通过 http://localhost:4000/ 来访问
+
+若出现乱码，尝试将_config.yml的文件编码格式改为UTF-8
+
+五、配置博客内容更改基本信息用编辑器打开_config.yml，修改相应的内容
+
+title(博客标题) 
+
+su ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/3/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/favicon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Steven</div><div class="author-info__description">A Minecraft Lover</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">4</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Steven-WZH"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Steven-WZH" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:1066106590@qq.com" target="_blank" title="邮箱"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">欢迎来到Steven的博客</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/p/git-push/" title="Gitpush | 将本地项目Push到Github上"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/git-push/git.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Gitpush | 将本地项目Push到Github上"/></a><div class="content"><a class="title" href="/p/git-push/" title="Gitpush | 将本地项目Push到Github上">Gitpush | 将本地项目Push到Github上</a><time datetime="2022-12-07T05:10:48.016Z" title="Created 2022-12-07 13:10:48">2022-12-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/game-ravenfield-mods/" title="游戏 | Ravenfield | 模组"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/game-ravenfield-mods/ravenfield.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="游戏 | Ravenfield | 模组"/></a><div class="content"><a class="title" href="/p/game-ravenfield-mods/" title="游戏 | Ravenfield | 模组">游戏 | Ravenfield | 模组</a><time datetime="2022-12-06T12:31:26.000Z" title="Created 2022-12-06 20:31:26">2022-12-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/p/vmware-download/" title="Vmware | 下载"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/p/vmware-download/vmware-logo.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Vmware | 下载"/></a><div class="content"><a class="title" href="/p/vmware-download/" title="Vmware | 下载">Vmware | 下载</a><time datetime="2022-12-06T12:04:51.000Z" title="Created 2022-12-06 20:04:51">2022-12-06</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/Alist/" style="font-size: 1.1em; color: #999">Alist</a> <a href="/tags/Hexo/" style="font-size: 1.5em; color: #99a9bf">Hexo</a> <a href="/tags/LOIC/" style="font-size: 1.1em; color: #999">LOIC</a> <a href="/tags/MC%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 1.23em; color: #999ea6">MC服务器</a> <a href="/tags/Mysql/" style="font-size: 1.23em; color: #999ea6">Mysql</a> <a href="/tags/Ravenfield/" style="font-size: 1.23em; color: #999ea6">Ravenfield</a> <a href="/tags/Vmware/" style="font-size: 1.1em; color: #999">Vmware</a> <a href="/tags/git-push/" style="font-size: 1.1em; color: #999">git-push</a> <a href="/tags/steam/" style="font-size: 1.1em; color: #999">steam++</a> <a href="/tags/vpn/" style="font-size: 1.1em; color: #999">vpn</a> <a href="/tags/%E4%B8%AA%E4%BA%BA/" style="font-size: 1.1em; color: #999">个人</a> <a href="/tags/%E5%9F%9F%E5%90%8D/" style="font-size: 1.37em; color: #99a4b2">域名</a></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">28</div></div><div class="webinfo-item"><div class="item-name">Run time :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-09-08T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Total Count :</div><div class="item-count">21.1k</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-12-07T06:25:34.379Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By Steven</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="Toggle Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();"><i class="fa fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();"><i class="fa fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();"><i class="fa fa-refresh"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();"><i class="fa fa-arrow-up"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();"><i class="fa fa-copy"></i><span>复制</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-paste"><a class="rightMenu-item" href="javascript:rmf.paste()"><i class="fa fa-copy"></i><span>粘贴</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-to"><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制链接</span></a><a class="rightMenu-item" id="menu-too" href="javascript:rmf.open()"><i class="fa fa-link"></i><span>转到链接</span></a><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-img"><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()"><i class="fa fa-copy"></i><span>复制图片链接</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:rmf.copyWordsLink()"><i class="fa fa-copy"></i><span>复制地址</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:rmf.translate();"><i class="fa-solid fa-earth-asia"></i><span>繁简转换</span></a><a class="rightMenu-item" href="javascript:rmf.switchDarkMode();"><i class="fa fa-moon"></i><span>昼夜切换</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="/license"><i class="fa fa-copyright"></i><span>声明</span></a></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script defer src="/js/jquery.min.js"></script><script defer data-pjax src="/js/rightMenu.js"></script><script defer type="text/javascript" src="</js/custom.js>"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --> <script data-pjax>if(document.getElementById('recent-posts') && location.pathname =='/'){
+    
+    var parent = document.getElementById('recent-posts');
+    var child = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/hexo-logo.png" alt="/swiper_img/hexo-logo.png"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-09-09</span><a class="blog-slider__title" href="p/hexo-blog/">Hexo | 搭建博客并上传至Github</a><div class="blog-slider__text">不花一分钱拥有一个自己的博客！</div><a class="blog-slider__button" href="p/hexo-blog/">详情</a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/ddos.jpg" alt="/swiper_img/ddos.jpg"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-08-29</span><a class="blog-slider__title" href="p/ddos-attack/">LOIC | DDOS攻击工具</a><div class="blog-slider__text">DDOS网络攻击！</div><a class="blog-slider__button" href="p/ddos-attack/">详情</a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/cf-logo.jpg" alt="/swiper_img/cf-logo.jpg"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-08-04</span><a class="blog-slider__title" href="p/domain-name-resolution/">域名 | 解析</a><div class="blog-slider__text">使用Cloudflare解析域名！</div><a class="blog-slider__button" href="p/domain-name-resolution/">详情</a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/freenom-logo.png" alt="/swiper_img/freenom-logo.png"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-08-04</span><a class="blog-slider__title" href="p/domain-register/">域名 | 免费注册</a><div class="blog-slider__text">永久免费的域名！</div><a class="blog-slider__button" href="p/domain-register/">详情</a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/vpn.jpg" alt="/swiper_img/vpn.jpg"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-08-28</span><a class="blog-slider__title" href="p/vpn/">VPN | 高速vpn推荐</a><div class="blog-slider__text">免费VPN！</div><a class="blog-slider__button" href="p/vpn/">详情</a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/mysql-logo.png" alt="/swiper_img/mysql-logo.png"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-10-29</span><a class="blog-slider__title" href="p/mysql-free/">MySQL | 免费数据库推荐[亲测]</a><div class="blog-slider__text">免费Mysql数据库！</div><a class="blog-slider__button" href="p/mysql-free/">详情</a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/hexo-logo.png" alt="/swiper_img/hexo-logo.png"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-11-26</span><a class="blog-slider__title" href="p/hexo-butterfly-rightmenu/">Hexo | Butterfly主题 | 右键菜单功能</a><div class="blog-slider__text">给Hexo博客添加右键功能！</div><a class="blog-slider__button" href="p/hexo-butterfly-rightmenu/">详情</a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms"><div class="blog-slider__img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/swiper_img/git.png" alt="/swiper_img/git.png"/></div><div class="blog-slider__content"><span class="blog-slider__code">2022-12-07</span><a class="blog-slider__title" href="p/git-push/">Gitpush | 将本地项目Push到Github上</a><div class="blog-slider__text">使用Git-push！</div><a class="blog-slider__button" href="p/git-push/">详情</a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载swiper')
+    parent.insertAdjacentHTML("afterbegin",child)}
+     </script>
+<script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper/swiper/swiper.min.js"></script>
+<script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-swiper@0.18/swiper/swiperindex.js"></script>
+<style></style><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = '/';
+  var qweather_key = 'b16a1fa0e63c46a4b8f28abfb06ae3fe';
+  var gaud_map_key = 'e2b04289e870b005374ee030148d64fd&s=rsv3';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '113.34532,23.15624';
+  var clock_default_rectangle_enable = 'false';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><!-- hexo injector body_end end --></body></html>
