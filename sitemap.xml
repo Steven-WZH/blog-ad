@@ -299,15 +299,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/404.html</loc>
-    
-    <lastmod>2022-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/index.html</loc>
     
     <lastmod>2022-11-23</lastmod>
@@ -349,14 +340,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%9F%9F%E5%90%8D/</loc>
+    <loc>http://example.com/tags/LOIC/</loc>
     <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/LOIC/</loc>
+    <loc>http://example.com/tags/%E5%9F%9F%E5%90%8D/</loc>
     <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -384,14 +375,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E4%B8%AA%E4%BA%BA/</loc>
+    <loc>http://example.com/tags/Mysql/</loc>
     <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Mysql/</loc>
+    <loc>http://example.com/tags/%E4%B8%AA%E4%BA%BA/</loc>
     <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -405,14 +396,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/vpn/</loc>
+    <loc>http://example.com/tags/Vmware/</loc>
     <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Vmware/</loc>
+    <loc>http://example.com/tags/vpn/</loc>
     <lastmod>2022-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
