@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/more/play/index.html</loc>
+    
+    <lastmod>2022-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/friends/index.html</loc>
+    
+    <lastmod>2022-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/p/alist/</loc>
+    
+    <lastmod>2022-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/p/domain-name-resolution/</loc>
     
     <lastmod>2022-12-08</lastmod>
@@ -29,34 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/more/play/index.html</loc>
-    
-    <lastmod>2022-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/p/alist/</loc>
-    
-    <lastmod>2022-12-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/p/mysql-free/</loc>
-    
-    <lastmod>2022-12-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/friends/index.html</loc>
     
     <lastmod>2022-12-07</lastmod>
     
@@ -405,14 +405,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/vpn/</loc>
+    <loc>http://example.com/tags/Vmware/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Vmware/</loc>
+    <loc>http://example.com/tags/vpn/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -421,14 +421,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>http://example.com/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>http://example.com/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
