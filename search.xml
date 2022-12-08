@@ -837,7 +837,7 @@
 </tr>
 <tr>
 <td align="center">SMTP_USER</td>
-<td align="center"><a href="mailto:&#120;&#120;&#120;&#120;&#120;&#120;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;">&#120;&#120;&#120;&#120;&#120;&#120;&#64;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;</a></td>
+<td align="center"><a href="mailto:&#x78;&#120;&#120;&#120;&#120;&#x78;&#x40;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#x78;&#120;&#120;&#120;&#120;&#x78;&#x40;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
 <td align="center">[必填]SMTP登录用户</td>
 </tr>
 <tr>
@@ -852,7 +852,7 @@
 </tr>
 <tr>
 <td align="center">SENDER_EMAIL</td>
-<td align="center"><a href="mailto:&#120;&#120;&#x78;&#x78;&#x78;&#x78;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;">&#120;&#120;&#x78;&#x78;&#x78;&#x78;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#x78;&#120;&#120;&#x78;&#x78;&#x78;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;">&#x78;&#120;&#120;&#x78;&#x78;&#x78;&#x40;&#113;&#x71;&#46;&#x63;&#x6f;&#109;</a></td>
 <td align="center">[必填]发件邮箱</td>
 </tr>
 <tr>
@@ -862,7 +862,7 @@
 </tr>
 <tr>
 <td align="center">BLOGGER_EMAIL</td>
-<td align="center"><a href="mailto:&#x78;&#x78;&#x78;&#120;&#x78;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#x78;&#x78;&#x78;&#120;&#x78;&#x40;&#x67;&#109;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#120;&#x78;&#120;&#x78;&#120;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#120;&#x78;&#120;&#x78;&#120;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#109;</a></td>
 <td align="center">[可选]博主通知收件地址，默认使用SENDER_EMAIL</td>
 </tr>
 <tr>
@@ -1480,15 +1480,13 @@
   <entry>
     <title>Hexo | 搭建博客并上传至Github</title>
     <url>/p/hexo-blog/</url>
-    <content><![CDATA[<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>1、一台电脑</p>
+    <content><![CDATA[<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>1、一台电脑</p>
 <p>2、[选用]域名</p>
-<p>免费注册及解析域名方法请至：<a href="https://blog.steven.tk/categories/%E5%9F%9F%E5%90%8D/">域名</a></p>
-<p>3 、一个Github账户<a href="https://github.com/signup">点此注册</a></p>
+<p>3 、Github账户<a href="https://github.com/signup">点此注册</a></p>
 <hr>
-<h3 id="一、安装环境"><a href="#一、安装环境" class="headerlink" title="一、安装环境"></a>一、安装环境</h3><p><a href="https://git-scm.com/download/win">安装Git</a></p>
+<h1 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h1><p><a href="https://git-scm.com/download/win">安装Git</a></p>
 <p><a href="https://nodejs.org/en/download/">安装Node.js</a></p>
-<hr>
-<h3 id="二、安装检验"><a href="#二、安装检验" class="headerlink" title="二、安装检验"></a>二、安装检验</h3><p>Win+R，输入cmd</p>
+<h2 id="安装检验"><a href="#安装检验" class="headerlink" title="安装检验"></a>安装检验</h2><p>Win+R，输入cmd</p>
 <p>检测git版本:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure>
 
@@ -1499,16 +1497,14 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h3 id="三、生成初始博客文件"><a href="#三、生成初始博客文件" class="headerlink" title="三、生成初始博客文件"></a>三、生成初始博客文件</h3><p>在任意文件夹进入cmd(在文件夹路径输入cmd)</p>
-<p><img src="/p/hexo-blog/enter-cmd.png" alt="进入cmd"></p>
-<p>安装Hexo:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h1 id="使用Hexo搭建博客-本地启动"><a href="#使用Hexo搭建博客-本地启动" class="headerlink" title="使用Hexo搭建博客(本地启动)"></a>使用Hexo搭建博客(本地启动)</h1><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
+<h2 id="生成初始博客文件"><a href="#生成初始博客文件" class="headerlink" title="生成初始博客文件"></a>生成初始博客文件</h2><p>在任意文件夹进入cmd(在文件夹路径输入cmd)</p>
+<p><img src="/p/hexo-blog/enter-cmd.png" alt="进入cmd"></p>
 <p>生成blog文件夹:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
 
-<hr>
-<h3 id="四、本地测试"><a href="#四、本地测试" class="headerlink" title="四、本地测试"></a>四、本地测试</h3><p>进入blog文件夹:</p>
+<h2 id="本地启动"><a href="#本地启动" class="headerlink" title="本地启动"></a>本地启动</h2><p>进入blog文件夹:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cd blog</span><br></pre></td></tr></table></figure>
 
 <p>启动:</p>
@@ -1519,8 +1515,7 @@
 <p>可以通过 <a href="http://localhost:4000/">http://localhost:4000/</a> 来访问</p>
 <p><img src="/p/hexo-blog/hexo-console-start.png"></p>
 <p>若出现乱码，尝试将_config.yml的文件编码格式改为UTF-8</p>
-<hr>
-<h3 id="五、配置博客内容"><a href="#五、配置博客内容" class="headerlink" title="五、配置博客内容"></a>五、配置博客内容</h3><h5 id="更改基本信息"><a href="#更改基本信息" class="headerlink" title="更改基本信息"></a>更改基本信息</h5><p>用编辑器打开_config.yml，修改相应的内容</p>
+<h2 id="配置博客内容"><a href="#配置博客内容" class="headerlink" title="配置博客内容"></a>配置博客内容</h2><h3 id="更改基本信息"><a href="#更改基本信息" class="headerlink" title="更改基本信息"></a>更改基本信息</h3><p>用编辑器打开_config.yml，修改相应的内容</p>
 <ul>
 <li><p>title(博客标题) </p>
 </li>
@@ -1538,9 +1533,9 @@
 </li>
 </ul>
 <p>修改完后保存退出</p>
-<h5 id="更改主题"><a href="#更改主题" class="headerlink" title="更改主题"></a>更改主题</h5><p>先停止运行博客</p>
-<p>进入<a href="https://hexo.io/themes/">Hexo官网</a> 找想要的主题</p>
-<p>找到后可以点击预览图进入预览界面或点击标题进入项目界面</p>
+<h3 id="更改主题"><a href="#更改主题" class="headerlink" title="更改主题"></a>更改主题</h3><p>先停止运行博客</p>
+<p>在 <a href="https://hexo.io/themes/">Hexo官网</a> 找想要的主题</p>
+<p>找到后点击预览图进入预览界面或点击标题进入项目界面</p>
 <p>在项目界面内根据主题的步骤</p>
 <p>安装完成后进入blog根目录下的_config.yml，找到theme，</p>
 <p>修改成主题的名称</p>
@@ -1549,19 +1544,17 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
 <p>通过 <a href="http://localhost:4000/">http://localhost:4000/</a> 就可以访问博客</p>
-<h5 id="主题自定义"><a href="#主题自定义" class="headerlink" title="主题自定义"></a>主题自定义</h5><p>通常主题的配置文件在 根目录 或 &#x2F;node_modules&#x2F;hexo_theme_主题名 或 &#x2F;themes&#x2F;hexo-theme-主题 中</p>
-<p>由于各主体配置文件内容不同，所以请前往主题的官网，这里不多阐述</p>
-<hr>
-<h3 id="六、新增界面"><a href="#六、新增界面" class="headerlink" title="六、新增界面"></a>六、新增界面</h3><h5 id="分类页"><a href="#分类页" class="headerlink" title="分类页"></a>分类页</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<h4 id="主题自定义"><a href="#主题自定义" class="headerlink" title="主题自定义"></a>主题自定义</h4><p>由于各主体配置文件内容不同，所以请前往主题的官网，这里不多阐述</p>
+<h2 id="新增界面"><a href="#新增界面" class="headerlink" title="新增界面"></a>新增界面</h2><h3 id="分类页"><a href="#分类页" class="headerlink" title="分类页"></a>分类页</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
 
-<h5 id="关于页"><a href="#关于页" class="headerlink" title="关于页"></a>关于页</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;about&quot;</span><br></pre></td></tr></table></figure>
+<h3 id="关于页"><a href="#关于页" class="headerlink" title="关于页"></a>关于页</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;about&quot;</span><br></pre></td></tr></table></figure>
 
-<h5 id="留言板"><a href="#留言板" class="headerlink" title="留言板"></a>留言板</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;contact&quot;</span><br></pre></td></tr></table></figure>
+<h3 id="留言板"><a href="#留言板" class="headerlink" title="留言板"></a>留言板</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;contact&quot;</span><br></pre></td></tr></table></figure>
 
-<h5 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h5><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;friends&quot;</span><br></pre></td></tr></table></figure>
+<h3 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;friends&quot;</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h3 id="七、上传至github"><a href="#七、上传至github" class="headerlink" title="七、上传至github"></a>七、上传至github</h3><p>登录Github并新建一个名称为: github用户名.github.io 的储存库</p>
+<h1 id="上传至Github"><a href="#上传至Github" class="headerlink" title="上传至Github"></a>上传至Github</h1><p>登录Github并新建一个名称为: <code>Github用户名.github.io</code> 的储存库</p>
 <p>打开根目录下的_config.yml文件(注意不是主题配置文件)</p>
 <p>找到deployment</p>
 <p>将配置更改为以下：</p>
@@ -1577,20 +1570,37 @@
 <p>部署:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
-<p>按照提示输入你的github用户名和密钥(注意不是密码)并回车</p>
+<p>按照提示输入Github用户名和密钥(注意不是密码)并回车</p>
 <blockquote>
 <p>生成密钥:  (勾选repo即可)<br><img src="/p/hexo-blog/github-add-token.png" alt="生成Token"><br><img src="/p/hexo-blog/github-token.png"></p>
 </blockquote>
 <p>没有报错就说明部署成功</p>
 <p>进入github中你的储存库的设置</p>
-<p>点击pages，找到’Build and deployment’</p>
-<p>将branch小标题下的分支改为master，也就是部署博客的分支</p>
-<p>点击save</p>
-<p>通过 github用户名.github.io 即可访问</p>
+<p>点击 <code>pages</code> ，找到 <code>Build and deployment</code></p>
+<p>将 <code>branch</code> 小标题下的分支改为 <code>master</code> ，也就是部署博客的分支</p>
+<p>点击 <code>save</code></p>
+<p>通过 <code>github用户名.github.io</code> 即可访问</p>
 <hr>
-<h3 id="八、域名"><a href="#八、域名" class="headerlink" title="八、域名"></a>八、域名</h3><blockquote>
-<p>如果觉得Github提供的域名不美观，可以自定义域名，详细注册以及解析前往<a href="https://blog.steven.tk/categories/%E5%9F%9F%E5%90%8D/">域名</a></p>
+<h1 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h1><blockquote>
+<p>如果觉得Github提供的域名不美观，可以自定义域名</p>
 </blockquote>
+<h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>首先按照<a href="https://blog.steven.tk/p/domain-register">域名注册</a>完成域名注册</p>
+<h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><p>按照<a href="https://blog.steven.tk/p/domain-name-resolution">域名解析</a>完成解析</p>
+<h3 id="DNS记录"><a href="#DNS记录" class="headerlink" title="DNS记录"></a>DNS记录</h3><p>其中,DNS记录填写以下值</p>
+<ul>
+<li><p>类型：CNAME</p>
+</li>
+<li><p>名称(即子域名)：任意子域名(如 www、blog 等)</p>
+</li>
+<li><p>目标：github用户名.github.io</p>
+</li>
+</ul>
+<p><img src="/p/hexo-blog/blog-github-dns.png" alt="示例"></p>
+<h2 id="Github配置域名"><a href="#Github配置域名" class="headerlink" title="Github配置域名"></a>Github配置域名</h2><p>返回<a href="https://www.github.com/">Github</a>储存库</p>
+<p>点击 <code>settings</code> –&gt; <code>page</code> ，找到 <code>custom domain</code></p>
+<p>输入域名(需要加上子域名)</p>
+<p><img src="/p/hexo-blog/blog-github-domain.png" alt="绑定域名"></p>
+<p>等待DNS检查成功后即可访问</p>
 ]]></content>
       <categories>
         <category>技术</category>
@@ -1659,49 +1669,6 @@
       </tags>
   </entry>
   <entry>
-    <title>域名 | 解析</title>
-    <url>/p/domain-name-resolution/</url>
-    <content><![CDATA[<p>在<a href="https://blog.steven.tk/p/domain-register/">上一篇</a>中，我们已经注册好了域名，现在就缺少解析域名这一步了</p>
-<h2 id="一、解析域名"><a href="#一、解析域名" class="headerlink" title="一、解析域名"></a>一、解析域名</h2><p>前往<a href="https://www.cloudflare.com/">Cloudfllare</a>，注册并登录后点击添加站点</p>
-<p>输入你刚刚注册的域名并点击添加站点</p>
-<p>然后选择0元的套餐并继续</p>
-<p>到下一个界面添加DNS记录。</p>
-<h4 id="DNS设置"><a href="#DNS设置" class="headerlink" title="DNS设置"></a>DNS设置</h4><h5 id="Github建站使用以下DNS"><a href="#Github建站使用以下DNS" class="headerlink" title="Github建站使用以下DNS"></a>Github建站使用以下DNS</h5><p>类型：CNAME</p>
-<p>名称(即子域名)：任意子域名(如 www、blog 等)</p>
-<p>目标：github用户名.github.io</p>
-<p><img src="/p/domain-name-resolution/blog-github-dns.png" alt="示例"></p>
-<h5 id="MC开服使用以下DNS"><a href="#MC开服使用以下DNS" class="headerlink" title="MC开服使用以下DNS"></a>MC开服使用以下DNS</h5><p>类型：SRV</p>
-<p>名称：@</p>
-<p>服务：_minecraft</p>
-<p>协议：TCP</p>
-<p>TTL：自动</p>
-<p>优先级：50</p>
-<p>权重：0</p>
-<p>端口：樱花frp远程端口</p>
-<p>目标：樱花frp隧道地址(不填端口)</p>
-<p><img src="/p/domain-name-resolution/mc-server-dns.png" alt="示例"></p>
-<h2 id="二、更改名称服务器"><a href="#二、更改名称服务器" class="headerlink" title="二、更改名称服务器"></a>二、更改名称服务器</h2><p>完成后点击保存，进入下一界面后复制两个Cloudflare的名称服务器地址</p>
-<p>进入<a href="https://www.freenom.com/">Freenom</a>，点击Services中的My Domains，点击域名后的设置</p>
-<p>进入设置界面后点击Management Tools中的Nameservers，</p>
-<p>使用自定义并在第一、第二项内分别填入刚刚复制的Cloudflare服务器地址。</p>
-<p>然后点击保存。</p>
-<h2 id="三、完成添加"><a href="#三、完成添加" class="headerlink" title="三、完成添加"></a>三、完成添加</h2><p>返回cloudflare，按提示完成后续步骤，完成域名添加。</p>
-<p>之后来到主页查看域名是否有效，有效就为成功。</p>
-<p><strong>建站需返回<a href="https://www.github.com/">Github</a>储存库设置域名</strong></p>
-<p>点击settings–&gt;page，找到custom domain</p>
-<p>输入域名(需要加上子域名)</p>
-<p>等待DNS检查成功后</p>
-<p><img src="/p/domain-name-resolution/blog-github-domain.png" alt="绑定域名"></p>
-<p>通过域名就可以访问网站或者服务器啦</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>域名</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>域名 | 免费注册</title>
     <url>/p/domain-register/</url>
     <content><![CDATA[<h2 id="一、准备："><a href="#一、准备：" class="headerlink" title="一、准备："></a>一、准备：</h2><p>谷歌账户<a href="https://accounts.google.com/">点此注册</a></p>
@@ -1730,6 +1697,32 @@
       </tags>
   </entry>
   <entry>
+    <title>域名 | 解析</title>
+    <url>/p/domain-name-resolution/</url>
+    <content><![CDATA[<p>在<a href="https://blog.steven.tk/p/domain-register/">上一篇</a>中，我们已经注册好了域名，现在就缺少解析域名这一步了</p>
+<h1 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h1><p>前往<a href="https://www.cloudflare.com/">Cloudfllare</a>，注册并登录后点击添加站点</p>
+<p>输入你刚刚注册的域名并点击添加站点</p>
+<p>然后选择0元的套餐并继续</p>
+<p><img src="/p/domain-name-resolution/cf-select-plan.png"></p>
+<p>到下一个界面添加DNS记录。</p>
+<h2 id="DNS设置"><a href="#DNS设置" class="headerlink" title="DNS设置"></a>DNS设置</h2><p>你可以按需求配置DNS</p>
+<h1 id="更改名称服务器"><a href="#更改名称服务器" class="headerlink" title="更改名称服务器"></a>更改名称服务器</h1><p>完成后点击保存，进入下一界面后 <strong>复制两个Cloudflare的名称服务器地址</strong></p>
+<p>进入<a href="https://www.freenom.com/">Freenom</a>，点击 <code>Services</code> 中的 <code>My Domains</code> ，点击域名后的设置</p>
+<p>进入设置界面后点击 <code>Management Tools</code> 中的 <code>Nameservers</code> ，</p>
+<p>使用自定义并在第一、第二项内分别填入刚刚复制的Cloudflare服务器地址。</p>
+<p>然后点击保存。</p>
+<p><img src="/p/domain-name-resolution/freenom-nameserver.png"></p>
+<h1 id="完成添加"><a href="#完成添加" class="headerlink" title="完成添加"></a>完成添加</h1><p>返回cloudflare，按提示完成后续步骤，完成域名添加。</p>
+<p>之后来到主页查看域名是否有效，有效就为成功。</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>域名</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>域名 | 相关</title>
     <url>/p/domain-about/</url>
     <content><![CDATA[<h2 id="域名的作用"><a href="#域名的作用" class="headerlink" title="域名的作用"></a>域名的作用</h2><p>1、方便记忆</p>
@@ -1745,31 +1738,31 @@
   <entry>
     <title>MC | 开设Java版服务器</title>
     <url>/p/Minecraft-server-build/</url>
-    <content><![CDATA[<h2 id="Java版开服教程"><a href="#Java版开服教程" class="headerlink" title="Java版开服教程"></a>Java版开服教程</h2><h3 id="一、准备工作"><a href="#一、准备工作" class="headerlink" title="一、准备工作"></a>一、准备工作</h3><p>1.安装Java17或Java18环境</p>
+    <content><![CDATA[<h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>1.安装Java17或Java18环境</p>
 <p>2.至少准备5G左右的空间(最好)</p>
-<h3 id="二、实践"><a href="#二、实践" class="headerlink" title="二、实践"></a>二、实践</h3><p>1.确认你想使用Minecraft版本</p>
-<p>2.去<a href="https://getbukkit.org/download/spigot">Spigot官网</a>下载对应版本的核心</p>
+<h1 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h1><p>1.确认你想使用Minecraft版本</p>
+<p>2.在<a href="https://getbukkit.org/download/spigot">Spigot官网</a>下载对应版本的核心</p>
 <p>3.新建一个空白文件夹，名字为“server”，并把刚刚下载的核心放到里面</p>
-<p>4.新建一个文本文档，名字为“start”,并修改后缀为“.bat”</p>
+<p>4.新建一个文本文档，名字为 <code>start</code> ,并修改后缀为 <code>.bat</code></p>
 <p>5.右键点击这个bat文件，选择“编辑”</p>
 <p>6.将下面这段文字复制进去</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@echo off</span><br><span class="line"></span><br><span class="line">java -Xmx1g -Xms1g -jar spigot-1.19.jar</span><br><span class="line"></span><br><span class="line">pause</span><br></pre></td></tr></table></figure>
+<figure class="highlight bat"><table><tr><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line">java -Xmx1g -Xms1g -jar spigot-<span class="number">1</span>.<span class="number">19</span>.jar</span><br><span class="line"></span><br><span class="line"><span class="built_in">pause</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>注：<br>   Xmx1g -Xms1g是运行这个核心最大内存和最小内存，可自行修改<br>   spigot-1.19是刚刚下载的核心的名称,如果修改了,需要在文本文档修改至相应的名字</p>
 </blockquote>
 <p>7.保存并关闭这个bat文件</p>
 <p>8.双击运行这个bat文件，会弹出来一个命令提示符（简称cmd）</p>
-<p>等指令都跳出来后会报错并显示”按任意键退出“是由于没用同意eula协议，</p>
+<p>等指令都跳出来后会报错并显示 <code>按任意键退出</code> 是由于没用同意 <code>eula</code> 协议，</p>
 <p>然后我们随便按一个按键退出。</p>
-<p>9.退出后文件夹里就会多出好几个文件，打开名称为”elua“的文本文档</p>
-<p>将最后一行的”false”改成”true”,然后保存并退出</p>
+<p>9.退出后文件夹里就会多出好几个文件，打开名称为 <code>elua</code> 的文本文档</p>
+<p>将最后一行的 <code>false</code> 改成 <code>true</code> ,然后保存并退出</p>
 <p>10.再次双击运行那个bat文件，会跳出来两个窗口，一个是cmd窗口,一个是图标为java的运行窗口</p>
 <p>等cmd中指令都跳出来后，确认他没有报错，并且不要关闭这两个窗口。</p>
-<p>现在，进入游戏，服务器地址填写127.0.0.1，就可以进入你的服务器啦</p>
+<p>现在，进入游戏，服务器地址填写 <code>127.0.0.1</code> ，就可以进入你的服务器啦</p>
 <p>若可以进入，则本地建设成功</p>
-<h3 id="三、内网穿透"><a href="#三、内网穿透" class="headerlink" title="三、内网穿透"></a>三、内网穿透</h3><p>11.使用樱花frp内网穿透</p>
-<p>去<a href="https://www.natfrp.com/">官网</a>注册并安装客户端</p>
+<h1 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h1><p>11.使用樱花frp内网穿透</p>
+<p>在<a href="https://www.natfrp.com/">官网</a>注册并安装客户端</p>
 <p>12 .打开客户端，点击”+“添加隧道</p>
 <p>本地ip填127.0.0.1</p>
 <p>本地端口填25565（可以在server文件夹里的server.properties中找到）</p>
@@ -1779,12 +1772,25 @@
 <p>或者国外的(不需要实名认证,延迟高)</p>
 <p>点击完成</p>
 <p>13.开启这个隧道</p>
-<p>在客户端的日志里找到”使用[XXXXXXXXXX]来连接至你的隧道“</p>
+<p>在客户端的日志里找到 <code>使用[XXXXXXXXXX]来连接至你的隧道</code></p>
 <p>复制括号里的的东西，这就是服务器的ip地址</p>
 <p>把它复制给别人，这样别人就能进入你的服务器啦。</p>
-<h3 id="四、域名"><a href="#四、域名" class="headerlink" title="四、域名"></a>四、域名</h3><p>如服务器的ip地址泄露极大可能会被ddos，</p>
-<p>可以绑定域名来隐藏服务器真实IP，</p>
-<p>详见分类：<a href="https://blog.steven.tk/categories/%E5%9F%9F%E5%90%8D/">域名</a></p>
+<h1 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h1><blockquote>
+<p>如服务器的ip地址泄露极大可能会被ddos，<br>可以绑定域名来隐藏服务器真实IP</p>
+</blockquote>
+<h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>首先按照<a href="https://blog.steven.tk/p/domain-register">域名注册</a>完成域名注册</p>
+<h2 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h2><p>按照<a href="https://blog.steven.tk/p/domain-name-resolution">域名解析</a>完成解析</p>
+<p>其中,DNS记录填写以下值</p>
+<h3 id="DNS记录"><a href="#DNS记录" class="headerlink" title="DNS记录"></a>DNS记录</h3><p>类型：SRV</p>
+<p>名称：@</p>
+<p>服务：_minecraft</p>
+<p>协议：TCP</p>
+<p>TTL：自动</p>
+<p>优先级：50</p>
+<p>权重：0</p>
+<p>端口：樱花frp远程端口</p>
+<p>目标：樱花frp隧道地址(不填端口)</p>
+<p><img src="/p/Minecraft-server-build/mc-server-dns.png" alt="示例"></p>
 ]]></content>
       <categories>
         <category>技术</category>
