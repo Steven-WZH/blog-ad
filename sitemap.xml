@@ -342,14 +342,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/LOIC/</loc>
+    <loc>http://example.com/tags/Alist/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Alist/</loc>
+    <loc>http://example.com/tags/LOIC/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -370,14 +370,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/git-push/</loc>
+    <loc>http://example.com/tags/Hexo/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Hexo/</loc>
+    <loc>http://example.com/tags/git-push/</loc>
     <lastmod>2022-12-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
