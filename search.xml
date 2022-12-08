@@ -837,7 +837,7 @@
 </tr>
 <tr>
 <td align="center">SMTP_USER</td>
-<td align="center"><a href="mailto:&#120;&#120;&#x78;&#120;&#120;&#120;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;">&#120;&#120;&#x78;&#120;&#120;&#120;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#120;&#120;&#120;&#120;&#120;&#120;&#x40;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;">&#120;&#120;&#120;&#120;&#120;&#120;&#x40;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;</a></td>
 <td align="center">[必填]SMTP登录用户</td>
 </tr>
 <tr>
@@ -852,7 +852,7 @@
 </tr>
 <tr>
 <td align="center">SENDER_EMAIL</td>
-<td align="center"><a href="mailto:&#120;&#x78;&#x78;&#120;&#x78;&#120;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;">&#120;&#x78;&#x78;&#120;&#x78;&#120;&#64;&#113;&#113;&#x2e;&#x63;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#120;&#x78;&#x78;&#x78;&#x78;&#120;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#x6d;">&#120;&#x78;&#x78;&#x78;&#x78;&#120;&#x40;&#x71;&#113;&#46;&#99;&#x6f;&#x6d;</a></td>
 <td align="center">[必填]发件邮箱</td>
 </tr>
 <tr>
@@ -862,7 +862,7 @@
 </tr>
 <tr>
 <td align="center">BLOGGER_EMAIL</td>
-<td align="center"><a href="mailto:&#120;&#x78;&#120;&#120;&#120;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;">&#120;&#x78;&#120;&#120;&#120;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#x78;&#120;&#x78;&#120;&#x78;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;">&#x78;&#120;&#x78;&#120;&#x78;&#64;&#x67;&#109;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td align="center">[可选]博主通知收件地址，默认使用SENDER_EMAIL</td>
 </tr>
 <tr>
@@ -1411,6 +1411,29 @@
       </tags>
   </entry>
   <entry>
+    <title>MySQL | 免费数据库推荐[亲测]</title>
+    <url>/p/mysql-free/</url>
+    <content><![CDATA[<h3 id="SQLPub-免费的MySQL数据库"><a href="#SQLPub-免费的MySQL数据库" class="headerlink" title="SQLPub - 免费的MySQL数据库"></a><a href="http://mysql.sqlpub.com/">SQLPub - 免费的MySQL数据库</a></h3><p>sqlpub.com 提供最新版本、甚至是开发者版本的 MySQL 服务器测试服务。 您可以轻易地 注册免费账号 测试您的应用。例如，您可以测试在MySQL版本升级后您的应用是否依然能够正常运行。 sqlpub.com 也是让您学习并熟悉新版本功能及操作的极佳资源。您将获得最大36000次&#x2F;小时的请求、同时10个连接和500M存储空间</p>
+<h5 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h5><p>永久500MB<br>永不过期<br>注册方便<br>Mysql版本高<br>在线连接数据库<br>国内访问快</p>
+<h5 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h5><p>一个邮箱只能注册一个</p>
+<h3 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a><a href="https://www.mongodb.com/">MongoDB</a></h3><p>MongoDB Atlas 提供 512MB 免费存储额度的在线 MongoDB 数据库服务，因为是商业服务所以有较好的服务保障，正统 MogoDB 公司连接也比较稳定</p>
+<h5 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h5><p>固定500MB<br>安全运维监控功能齐全<br>永不过期<br>节点多<br>系统备份、还原<br>24×7监控</p>
+<h5 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h5><p>数据库为虚拟机共享实例</p>
+<h3 id="db4free-net-免费的-MySQL-数据库"><a href="#db4free-net-免费的-MySQL-数据库" class="headerlink" title="db4free.net - 免费的 MySQL 数据库"></a><a href="https://www.db4free.net/">db4free.net - 免费的 MySQL 数据库</a></h3><p>db4free 是比较早的免费在线数据库服务，提供不限空间额度非商业服务，由于没有商业服务背书，db4free不承诺稳定性与数据安全，访问较慢。</p>
+<blockquote>
+<p>切勿用于生产或学习！！</p>
+</blockquote>
+<h5 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h5><p>不限空间<br>提供 phpMyAdmin 在线数据管理<br>永不过期</p>
+<h5 id="缺点-2"><a href="#缺点-2" class="headerlink" title="缺点"></a>缺点</h5><p>定期重置<br>连接速度慢</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Mysql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>MySQL | 常用指令</title>
     <url>/p/mysql-command/</url>
     <content><![CDATA[<h5 id="常用-SQL-命令"><a href="#常用-SQL-命令" class="headerlink" title="常用 SQL 命令"></a>常用 SQL 命令</h5><h6 id="SELECT"><a href="#SELECT" class="headerlink" title="SELECT"></a>SELECT</h6><p>SELECT 命令用于从数据库中查询（选取）数据，它的用法如下：</p>
@@ -1446,29 +1469,6 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ALTER TABLE table_name</span><br><span class="line">DROP INDEX index_name;</span><br></pre></td></tr></table></figure>
 
 
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Mysql</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MySQL | 免费数据库推荐[亲测]</title>
-    <url>/p/mysql-free/</url>
-    <content><![CDATA[<h3 id="SQLPub-免费的MySQL数据库"><a href="#SQLPub-免费的MySQL数据库" class="headerlink" title="SQLPub - 免费的MySQL数据库"></a><a href="http://mysql.sqlpub.com/">SQLPub - 免费的MySQL数据库</a></h3><p>sqlpub.com 提供最新版本、甚至是开发者版本的 MySQL 服务器测试服务。 您可以轻易地 注册免费账号 测试您的应用。例如，您可以测试在MySQL版本升级后您的应用是否依然能够正常运行。 sqlpub.com 也是让您学习并熟悉新版本功能及操作的极佳资源。您将获得最大36000次&#x2F;小时的请求、同时10个连接和500M存储空间</p>
-<h5 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h5><p>永久500MB<br>永不过期<br>注册方便<br>Mysql版本高<br>在线连接数据库<br>国内访问快</p>
-<h5 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h5><p>一个邮箱只能注册一个</p>
-<h3 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a><a href="https://www.mongodb.com/">MongoDB</a></h3><p>MongoDB Atlas 提供 512MB 免费存储额度的在线 MongoDB 数据库服务，因为是商业服务所以有较好的服务保障，正统 MogoDB 公司连接也比较稳定</p>
-<h5 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h5><p>固定500MB<br>安全运维监控功能齐全<br>永不过期<br>节点多<br>系统备份、还原<br>24×7监控</p>
-<h5 id="缺点-1"><a href="#缺点-1" class="headerlink" title="缺点"></a>缺点</h5><p>数据库为虚拟机共享实例</p>
-<h3 id="db4free-net-免费的-MySQL-数据库"><a href="#db4free-net-免费的-MySQL-数据库" class="headerlink" title="db4free.net - 免费的 MySQL 数据库"></a><a href="https://www.db4free.net/">db4free.net - 免费的 MySQL 数据库</a></h3><p>db4free 是比较早的免费在线数据库服务，提供不限空间额度非商业服务，由于没有商业服务背书，db4free不承诺稳定性与数据安全，访问较慢。</p>
-<blockquote>
-<p>切勿用于生产或学习！！</p>
-</blockquote>
-<h5 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h5><p>不限空间<br>提供 phpMyAdmin 在线数据管理<br>永不过期</p>
-<h5 id="缺点-2"><a href="#缺点-2" class="headerlink" title="缺点"></a>缺点</h5><p>定期重置<br>连接速度慢</p>
 ]]></content>
       <categories>
         <category>技术</category>
