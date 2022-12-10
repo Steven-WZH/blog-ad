@@ -836,7 +836,7 @@
 </tr>
 <tr>
 <td align="center">SMTP_USER</td>
-<td align="center"><a href="mailto:&#120;&#120;&#x78;&#120;&#120;&#x78;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;">&#120;&#120;&#x78;&#120;&#120;&#x78;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#x78;&#120;&#120;&#120;&#x78;&#x78;&#64;&#113;&#x71;&#46;&#99;&#111;&#109;">&#x78;&#120;&#120;&#120;&#x78;&#x78;&#64;&#113;&#x71;&#46;&#99;&#111;&#109;</a></td>
 <td align="center">[必填]SMTP登录用户</td>
 </tr>
 <tr>
@@ -851,7 +851,7 @@
 </tr>
 <tr>
 <td align="center">SENDER_EMAIL</td>
-<td align="center"><a href="mailto:&#120;&#x78;&#x78;&#x78;&#x78;&#x78;&#64;&#113;&#113;&#x2e;&#99;&#x6f;&#x6d;">&#120;&#x78;&#x78;&#x78;&#x78;&#x78;&#64;&#113;&#113;&#x2e;&#99;&#x6f;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#120;&#120;&#x78;&#120;&#120;&#120;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#109;">&#120;&#120;&#x78;&#120;&#120;&#120;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#109;</a></td>
 <td align="center">[必填]发件邮箱</td>
 </tr>
 <tr>
@@ -861,7 +861,7 @@
 </tr>
 <tr>
 <td align="center">BLOGGER_EMAIL</td>
-<td align="center"><a href="mailto:&#x78;&#x78;&#120;&#120;&#120;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#x78;&#x78;&#120;&#120;&#120;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#120;&#120;&#x78;&#120;&#120;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#120;&#120;&#x78;&#120;&#120;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
 <td align="center">[可选]博主通知收件地址，默认使用SENDER_EMAIL</td>
 </tr>
 <tr>
@@ -1553,16 +1553,28 @@
 <h3 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new page &quot;friends&quot;</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h1 id="部署至Github"><a href="#部署至Github" class="headerlink" title="部署至Github"></a>部署至Github</h1><p>安装部署插件:</p>
+<h1 id="部署至Github"><a href="#部署至Github" class="headerlink" title="部署至Github"></a>部署至Github</h1><h2 id="Github配置"><a href="#Github配置" class="headerlink" title="Github配置"></a>Github配置</h2><h3 id="新建储存库"><a href="#新建储存库" class="headerlink" title="新建储存库"></a>新建储存库</h3><p>登录 <code>Github</code> ,新建一个名称为: <code>Github用户名.github.io</code> 的储存库</p>
+<h3 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h3><p>生成密钥:  (勾选repo即可)</p>
+<p><img src="/p/hexo-blog/github-add-token.png" alt="生成Token"></p>
+<p><img src="/p/hexo-blog/github-token.png"></p>
+<blockquote>
+<p>密钥只出现一次,注意保存</p>
+</blockquote>
+<h2 id="本地配置"><a href="#本地配置" class="headerlink" title="本地配置"></a>本地配置</h2><p>安装部署插件:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
-<p>登录 <code>Github</code> ,新建一个名称为: <code>Github用户名.github.io</code> 的储存库</p>
+<p>配置Github用户邮箱</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;you@example.com&quot;</span><br></pre></td></tr></table></figure>
+
+<p>配置Github用户名</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;Your Name&quot;</span><br></pre></td></tr></table></figure>
+
 <p>打开根目录下的_config.yml文件(注意不是主题配置文件)</p>
 <p>找到deployment</p>
 <p>将配置更改为以下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/github用户名/github用户名.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/github用户名/github用户名.github.io #Github储存库的URL</span><br><span class="line">  branch: master # 部署的分支</span><br></pre></td></tr></table></figure>
 
-<p>并执行以下三条命令</p>
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>执行以下三条命令</p>
 <p>清除缓存:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
 
@@ -1573,11 +1585,12 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
 <p>按照提示输入Github用户名和密钥(注意不是密码)并回车</p>
-<blockquote>
-<p>生成密钥:  (勾选repo即可)<br><img src="/p/hexo-blog/github-add-token.png" alt="生成Token"><br><img src="/p/hexo-blog/github-token.png"></p>
-</blockquote>
 <p>没有报错就说明部署成功</p>
-<p>进入github中你的储存库的设置</p>
+<blockquote>
+<p>若出现 <code>SSL certificate problem: unable to get local issuer certificate</code><br>输入以下命令:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>进入Github中你的储存库的设置</p>
 <p>点击 <code>pages</code> ，找到 <code>Build and deployment</code></p>
 <p>将 <code>branch</code> 小标题下的分支改为 <code>master</code> ，也就是部署博客的分支</p>
 <p>点击 <code>save</code></p>
