@@ -1,0 +1,43 @@
+/* �������� */
+/* һ����ʾ��� */
+.flink-list-item{
+    width:calc(100% / 4 - 15px)!important;
+}
+@media screen and (max-width: 1250px) {
+    .flink-list-item{
+        width:calc(100% / 3 - 15px)!important;
+    }
+}
+/* ͷ��΢�� */
+.flink-item-icon {
+    margin-right: 0 !important;
+    transition: .5s !important;
+}
+
+.flink-item-name,
+.flink-item-desc {
+    padding-left: 10px !important;
+}
+/* ȥ��ԭ���Դ���before */
+#article-container .flink .flink-list>.flink-list-item::before {
+    content: none;
+}
+/* ��꾭���ı䱳�� */
+#article-container .flink .flink-list>.flink-list-item:hover {
+    background-color: #61bcf2cc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+/* ��꾭���ı�������ɫ */
+#article-container .flink .flink-list>.flink-list-item:hover a {
+    color: white !important;
+}
+/* ��꾭��ͷ����� */
+#article-container .flink .flink-list>.flink-list-item:hover .flink-item-icon {
+    width: 60px;
+    margin-left: -70px;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
