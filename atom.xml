@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Steven的博客</title>
+  
+  <subtitle>技术交流 分享快乐</subtitle>
+  <link href="https://blog.steven.tk/atom.xml" rel="self"/>
+  
+  <link href="https://blog.steven.tk/"/>
+  <updated>2022-12-06T12:54:12.597Z</updated>
+  <id>https://blog.steven.tk/</id>
+  
+  <author>
+    <name>Steven</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>游戏 | Ravenfield | 模组</title>
+    <link href="https://blog.steven.tk/p/game-ravenfield-mods/"/>
+    <id>https://blog.steven.tk/p/game-ravenfield-mods/</id>
+    <published>2022-12-06T12:31:26.000Z</published>
+    <updated>2022-12-06T12:54:12.597Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="游戏" scheme="https://blog.steven.tk/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+    <category term="Ravenfield" scheme="https://blog.steven.tk/tags/Ravenfield/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vmware | 下载</title>
+    <link href="https://blog.steven.tk/p/vmware-download/"/>
+    <id>https://blog.steven.tk/p/vmware-download/</id>
+    <published>2022-12-06T12:04:51.000Z</published>
+    <updated>2022-12-06T13:24:27.157Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Vmware" scheme="https://blog.steven.tk/tags/Vmware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Alist | 网盘聚合工具 | 免费部署方法</title>
+    <link href="https://blog.steven.tk/p/alist/"/>
+    <id>https://blog.steven.tk/p/alist/</id>
+    <published>2022-12-04T11:52:26.000Z</published>
+    <updated>2022-12-09T11:18:04.154Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Alist" scheme="https://blog.steven.tk/tags/Alist/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>生活随记</title>
+    <link href="https://blog.steven.tk/p/life-note/"/>
+    <id>https://blog.steven.tk/p/life-note/</id>
+    <published>2022-12-04T11:52:26.000Z</published>
+    <updated>2022-12-04T11:31:43.777Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://blog.steven.tk/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="个人" scheme="https://blog.steven.tk/tags/%E4%B8%AA%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | 使用Waline评论系统</title>
+    <link href="https://blog.steven.tk/p/hexo-waline/"/>
+    <id>https://blog.steven.tk/p/hexo-waline/</id>
+    <published>2022-12-02T11:52:26.000Z</published>
+    <updated>2022-12-05T11:42:19.965Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Butterfly主题 | 更改字体</title>
+    <link href="https://blog.steven.tk/p/hexo-butterfly-font/"/>
+    <id>https://blog.steven.tk/p/hexo-butterfly-font/</id>
+    <published>2022-12-02T11:51:25.000Z</published>
+    <updated>2022-12-05T11:41:37.023Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Butterfly主题 | 右键菜单功能</title>
+    <link href="https://blog.steven.tk/p/hexo-butterfly-rightmenu/"/>
+    <id>https://blog.steven.tk/p/hexo-butterfly-rightmenu/</id>
+    <published>2022-11-26T08:26:14.000Z</published>
+    <updated>2022-12-05T11:40:56.318Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gitpush | 将本地项目Push到Github上</title>
+    <link href="https://blog.steven.tk/p/git-push/"/>
+    <id>https://blog.steven.tk/p/git-push/</id>
+    <published>2022-11-25T03:45:14.000Z</published>
+    <updated>2022-12-09T11:19:39.271Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://blog.steven.tk/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="git-push" scheme="https://blog.steven.tk/tags/git-push/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Steam++ | Github/Steam加速访问工具</title>
+    <link href="https://blog.steven.tk/p/steam++/"/>
+    <id>https://blog.steven.tk/p/steam++/</id>
+    <published>2022-11-25T03:45:14.000Z</published>
+    <updated>2022-12-05T11:44:00.339Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://blog.steven.tk/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="steam++" scheme="https://blog.steven.tk/tags/steam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minecraft PSMC 1.19.2 服务器</title>
+    <link href="https://blog.steven.tk/p/Minecraft-psmc/"/>
+    <id>https://blog.steven.tk/p/Minecraft-psmc/</id>
+    <published>2022-11-20T03:45:14.000Z</published>
+    <updated>2022-12-04T11:31:11.832Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="游戏" scheme="https://blog.steven.tk/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Valine评论</title>
+    <link href="https://blog.steven.tk/p/hexo-valine/"/>
+    <id>https://blog.steven.tk/p/hexo-valine/</id>
+    <published>2022-11-13T11:08:11.000Z</published>
+    <updated>2022-12-05T11:42:09.738Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Matery主题 | 细节优化</title>
+    <link href="https://blog.steven.tk/p/hexo-matery-details/"/>
+    <id>https://blog.steven.tk/p/hexo-matery-details/</id>
+    <published>2022-11-12T11:08:11.000Z</published>
+    <updated>2022-12-05T11:41:10.896Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Matery主题 | 中文帮助文档</title>
+    <link href="https://blog.steven.tk/p/hexo-matery/"/>
+    <id>https://blog.steven.tk/p/hexo-matery/</id>
+    <published>2022-11-12T11:08:11.000Z</published>
+    <updated>2022-12-05T11:41:23.380Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Matery主题 | 自定义加载动画</title>
+    <link href="https://blog.steven.tk/p/hexo-matery-custom-loading/"/>
+    <id>https://blog.steven.tk/p/hexo-matery-custom-loading/</id>
+    <published>2022-11-10T11:08:11.000Z</published>
+    <updated>2022-12-05T11:41:16.398Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Matery主题 | 直达评论模块</title>
+    <link href="https://blog.steven.tk/p/hexo-matery-direct-comment/"/>
+    <id>https://blog.steven.tk/p/hexo-matery-direct-comment/</id>
+    <published>2022-11-10T11:08:11.000Z</published>
+    <updated>2022-12-05T11:41:07.110Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏 | Ravenfield</title>
+    <link href="https://blog.steven.tk/p/game-ravenfield/"/>
+    <id>https://blog.steven.tk/p/game-ravenfield/</id>
+    <published>2022-11-09T10:18:45.000Z</published>
+    <updated>2022-12-06T12:32:09.329Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="游戏" scheme="https://blog.steven.tk/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+    <category term="Ravenfield" scheme="https://blog.steven.tk/tags/Ravenfield/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | Matery主题 | 添加utterances评论</title>
+    <link href="https://blog.steven.tk/p/hexo-matery-utterances/"/>
+    <id>https://blog.steven.tk/p/hexo-matery-utterances/</id>
+    <published>2022-10-29T11:08:11.000Z</published>
+    <updated>2022-12-05T11:41:02.709Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL | 常用指令</title>
+    <link href="https://blog.steven.tk/p/mysql-command/"/>
+    <id>https://blog.steven.tk/p/mysql-command/</id>
+    <published>2022-10-29T03:45:14.000Z</published>
+    <updated>2022-12-05T11:43:20.883Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Mysql" scheme="https://blog.steven.tk/tags/Mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL | 免费数据库推荐[亲测]</title>
+    <link href="https://blog.steven.tk/p/mysql-free/"/>
+    <id>https://blog.steven.tk/p/mysql-free/</id>
+    <published>2022-10-29T03:45:14.000Z</published>
+    <updated>2022-12-07T06:24:40.923Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Mysql" scheme="https://blog.steven.tk/tags/Mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo | 搭建博客并上传至Github</title>
+    <link href="https://blog.steven.tk/p/hexo-blog/"/>
+    <id>https://blog.steven.tk/p/hexo-blog/</id>
+    <published>2022-09-09T03:45:14.000Z</published>
+    <updated>2022-12-10T11:16:45.188Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://blog.steven.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.steven.tk/tags/Hexo/"/>
+    
+  </entry>
+  
+</feed>

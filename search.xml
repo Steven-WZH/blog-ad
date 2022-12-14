@@ -836,7 +836,7 @@
 </tr>
 <tr>
 <td align="center">SMTP_USER</td>
-<td align="center"><a href="mailto:&#x78;&#120;&#120;&#120;&#x78;&#x78;&#64;&#113;&#x71;&#46;&#99;&#111;&#109;">&#x78;&#120;&#120;&#120;&#x78;&#x78;&#64;&#113;&#x71;&#46;&#99;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#x78;&#x78;&#x78;&#x78;&#x78;&#120;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;">&#x78;&#x78;&#x78;&#x78;&#x78;&#120;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#109;</a></td>
 <td align="center">[必填]SMTP登录用户</td>
 </tr>
 <tr>
@@ -851,7 +851,7 @@
 </tr>
 <tr>
 <td align="center">SENDER_EMAIL</td>
-<td align="center"><a href="mailto:&#120;&#120;&#x78;&#120;&#120;&#120;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#109;">&#120;&#120;&#x78;&#120;&#120;&#120;&#x40;&#x71;&#x71;&#x2e;&#99;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#120;&#x78;&#x78;&#120;&#x78;&#x78;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#109;">&#120;&#x78;&#x78;&#120;&#x78;&#x78;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#109;</a></td>
 <td align="center">[必填]发件邮箱</td>
 </tr>
 <tr>
@@ -861,7 +861,7 @@
 </tr>
 <tr>
 <td align="center">BLOGGER_EMAIL</td>
-<td align="center"><a href="mailto:&#120;&#120;&#x78;&#120;&#120;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;">&#120;&#120;&#x78;&#120;&#120;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#x78;&#120;&#120;&#120;&#x78;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">&#x78;&#120;&#120;&#120;&#x78;&#64;&#103;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a></td>
 <td align="center">[可选]博主通知收件地址，默认使用SENDER_EMAIL</td>
 </tr>
 <tr>
@@ -1587,7 +1587,7 @@
 <p>按照提示输入Github用户名和密钥(注意不是密码)并回车</p>
 <p>没有报错就说明部署成功</p>
 <blockquote>
-<p>若出现 <code>SSL certificate problem: unable to get local issuer certificate</code><br>输入以下命令:</p>
+<p>若出现 <code>SSL certificate problem: unable to get local issuer certificate</code> ,这个问题是由于没有配置信任的服务器HTTPS验证。<br>输入以下命令:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global http.sslVerify false</span><br></pre></td></tr></table></figure>
 </blockquote>
 <p>进入Github中你的储存库的设置</p>
@@ -1728,7 +1728,7 @@
 <p>完成后点击完成订单</p>
 <p>这样你的域名就注册好啦！</p>
 <p>可以使用自己的域名网站解析域名</p>
-<p>或使用Cloudflare解析域名(推荐),详情至<a href="https://blog.steven.tk/post/domain-name-resolution/">域名解析</a></p>
+<p>或使用Cloudflare解析域名(推荐),详情至<a href="https://blog.steven.tk/p/domain-name-resolution/">域名解析</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
