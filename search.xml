@@ -456,73 +456,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Alist | 网盘聚合工具 | 免费部署方法</title>
-    <url>/p/alist/</url>
-    <content><![CDATA[<h2 id="Alist介绍"><a href="#Alist介绍" class="headerlink" title="Alist介绍"></a>Alist介绍</h2><p>一个支持多种存储，支持网页浏览和 WebDAV 的文件列表程序，由 gin 和 Solidjs 驱动。</p>
-<h3 id="支持的网盘"><a href="#支持的网盘" class="headerlink" title="支持的网盘"></a>支持的网盘</h3><ul>
-<li><input checked="" disabled="" type="checkbox"> 本地存储</li>
-<li><input checked="" disabled="" type="checkbox"> 阿里云盘</li>
-<li><input checked="" disabled="" type="checkbox"> OneDrive &#x2F; SharePoint（国际版, 世纪互联,de,us）</li>
-<li><input checked="" disabled="" type="checkbox"> 天翼云盘 (个人云, 家庭云)</li>
-<li><input checked="" disabled="" type="checkbox"> GoogleDrive</li>
-<li><input checked="" disabled="" type="checkbox"> 123云盘</li>
-<li><input checked="" disabled="" type="checkbox"> FTP &#x2F; SFTP</li>
-<li><input checked="" disabled="" type="checkbox"> PikPak</li>
-<li><input checked="" disabled="" type="checkbox"> S3</li>
-<li><input checked="" disabled="" type="checkbox"> 又拍云对象存储</li>
-<li><input checked="" disabled="" type="checkbox"> WebDAV(支持无API的OneDrive&#x2F;SharePoint)</li>
-<li><input checked="" disabled="" type="checkbox"> Teambition（中国，国际）</li>
-<li><input checked="" disabled="" type="checkbox"> 分秒帧</li>
-<li><input checked="" disabled="" type="checkbox"> 和彩云 (个人云, 家庭云)</li>
-<li><input checked="" disabled="" type="checkbox"> Yandex.Disk</li>
-<li><input checked="" disabled="" type="checkbox"> 百度网盘</li>
-<li><input checked="" disabled="" type="checkbox"> 夸克网盘</li>
-<li><input checked="" disabled="" type="checkbox"> 迅雷网盘</li>
-<li><input checked="" disabled="" type="checkbox"> 蓝奏云</li>
-<li><input checked="" disabled="" type="checkbox"> 阿里云盘分享</li>
-<li><input checked="" disabled="" type="checkbox"> 谷歌相册</li>
-<li><input checked="" disabled="" type="checkbox"> Mega.nz</li>
-<li><input checked="" disabled="" type="checkbox"> 一刻相册</li>
-<li><input checked="" disabled="" type="checkbox"> SMB</li>
-<li><input checked="" disabled="" type="checkbox"> 115</li>
-</ul>
-<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><h3 id="部署至Replit"><a href="#部署至Replit" class="headerlink" title="部署至Replit"></a>部署至Replit</h3><p>首先注册一个Replit账户</p>
-<p><a href="https://replit.com/~">注册Replit账户</a></p>
-<p>完成后点击下面的按钮一键部署</p>
-<a class="btn-beautify block center larger" href="https://repl.it/github/alist-org/alist-replit" 
-  title="一键部署"><i class="far fa-hand-point-right"></i><span>一键部署</span></a>
-
-<h3 id="可选-设置数据库"><a href="#可选-设置数据库" class="headerlink" title="[可选]设置数据库"></a>[可选]设置数据库</h3><p>Replit完成Import后</p>
-<p>点击左边文件模块右上角三个点,点击 <code>Show hidden files</code></p>
-<p>打开 <code>.replit</code> ,将数据库配置信息设为自己的</p>
-<p><img src="/p/alist/db-setting.png"></p>
-<blockquote>
-<p>[不安全]若不设置,Alist会自动在本地生成 <code>data.db</code> ,将数据保存在本地,由于Replit免费用户的项目源码是公开的,所以信息极易泄露</p>
-</blockquote>
-<h3 id="运行项目"><a href="#运行项目" class="headerlink" title="运行项目"></a>运行项目</h3><p>点击 <code>Run</code> 运行项目</p>
-<p><img src="/p/alist/run.png"></p>
-<blockquote>
-<p>若出现 <code>unable to read .replit: unable to decode .replit: toml: cannot load TOML value of type map[string]interface &#123;&#125; into a Go string</code><br><img src="/p/alist/unable-read-replit.png"><br>解决办法:<br>在 <code>.replit</code> 中删除图中选中部分:<br><img src="/p/alist/unable-read-replit-fix.png"></p>
-</blockquote>
-<p><strong>第一次运行,控制台会出现Alist管理员密码,须保存</strong></p>
-<p><img src="/p/alist/admin-pass.png"></p>
-<p>打开Replit给的域名</p>
-<p><img src="/p/alist/webview.png"></p>
-<p>点击页脚 <code>登录</code></p>
-<blockquote>
-<p>登录用户名为 <code>Admin</code> ,密码为刚刚控制台出现的密码<br><img src="/p/alist/alist-login.png"></p>
-</blockquote>
-<p>进入后台即可自行配置</p>
-<p><strong>至此,AList就部署完成啦!</strong></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>Alist</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>生活随记</title>
     <url>/p/life-note/</url>
     <content><![CDATA[<p>还没有想好写什么a</p>
@@ -836,7 +769,7 @@
 </tr>
 <tr>
 <td align="center">SMTP_USER</td>
-<td align="center"><a href="mailto:&#x78;&#x78;&#x78;&#120;&#x78;&#x78;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#109;">&#x78;&#x78;&#x78;&#120;&#x78;&#x78;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#109;</a></td>
+<td align="center"><a href="mailto:&#x78;&#120;&#120;&#120;&#x78;&#120;&#64;&#x71;&#113;&#46;&#99;&#x6f;&#109;">&#x78;&#120;&#120;&#120;&#x78;&#120;&#64;&#x71;&#113;&#46;&#99;&#x6f;&#109;</a></td>
 <td align="center">[必填]SMTP登录用户</td>
 </tr>
 <tr>
@@ -851,7 +784,7 @@
 </tr>
 <tr>
 <td align="center">SENDER_EMAIL</td>
-<td align="center"><a href="mailto:&#x78;&#120;&#120;&#x78;&#120;&#x78;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#x6d;">&#x78;&#120;&#120;&#x78;&#120;&#x78;&#64;&#113;&#113;&#x2e;&#x63;&#x6f;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#120;&#x78;&#120;&#x78;&#x78;&#x78;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;">&#120;&#x78;&#120;&#x78;&#x78;&#x78;&#64;&#x71;&#113;&#46;&#99;&#111;&#x6d;</a></td>
 <td align="center">[必填]发件邮箱</td>
 </tr>
 <tr>
@@ -861,7 +794,7 @@
 </tr>
 <tr>
 <td align="center">BLOGGER_EMAIL</td>
-<td align="center"><a href="mailto:&#x78;&#x78;&#x78;&#120;&#x78;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x78;&#x78;&#x78;&#120;&#x78;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#x78;&#x78;&#120;&#120;&#x78;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">&#x78;&#x78;&#120;&#120;&#x78;&#x40;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;</a></td>
 <td align="center">[可选]博主通知收件地址，默认使用SENDER_EMAIL</td>
 </tr>
 <tr>
@@ -1684,32 +1617,6 @@
       </tags>
   </entry>
   <entry>
-    <title>域名 | 解析</title>
-    <url>/p/domain-name-resolution/</url>
-    <content><![CDATA[<p>在<a href="https://blog.steven.tk/p/domain-register/">上一篇</a>中，我们已经注册好了域名，现在就缺少解析域名这一步了</p>
-<h1 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h1><p>前往<a href="https://www.cloudflare.com/">Cloudfllare</a>，注册并登录后点击添加站点</p>
-<p>输入你刚刚注册的域名并点击添加站点</p>
-<p>然后选择0元的套餐并继续</p>
-<p><img src="/p/domain-name-resolution/cf-select-plan.png"></p>
-<p>到下一个界面添加DNS记录。</p>
-<h2 id="DNS设置"><a href="#DNS设置" class="headerlink" title="DNS设置"></a>DNS设置</h2><p>你可以按需求配置DNS</p>
-<h1 id="更改名称服务器"><a href="#更改名称服务器" class="headerlink" title="更改名称服务器"></a>更改名称服务器</h1><p>完成后点击保存，进入下一界面后 <strong>复制两个Cloudflare的名称服务器地址</strong></p>
-<p>进入<a href="https://www.freenom.com/">Freenom</a>，点击 <code>Services</code> 中的 <code>My Domains</code> ，点击域名后的设置</p>
-<p>进入设置界面后点击 <code>Management Tools</code> 中的 <code>Nameservers</code> ，</p>
-<p>使用自定义并在第一、第二项内分别填入刚刚复制的Cloudflare服务器地址。</p>
-<p>然后点击保存。</p>
-<p><img src="/p/domain-name-resolution/freenom-nameserver.png"></p>
-<h1 id="完成添加"><a href="#完成添加" class="headerlink" title="完成添加"></a>完成添加</h1><p>返回cloudflare，按提示完成后续步骤，完成域名添加。</p>
-<p>之后来到主页查看域名是否有效，有效就为成功。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>域名</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>域名 | 免费注册</title>
     <url>/p/domain-register/</url>
     <content><![CDATA[<h2 id="一、准备："><a href="#一、准备：" class="headerlink" title="一、准备："></a>一、准备：</h2><p>谷歌账户<a href="https://accounts.google.com/">点此注册</a></p>
@@ -1729,6 +1636,32 @@
 <p>这样你的域名就注册好啦！</p>
 <p>可以使用自己的域名网站解析域名</p>
 <p>或使用Cloudflare解析域名(推荐),详情至<a href="https://blog.steven.tk/p/domain-name-resolution/">域名解析</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>域名</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>域名 | 解析</title>
+    <url>/p/domain-name-resolution/</url>
+    <content><![CDATA[<p>在<a href="https://blog.steven.tk/p/domain-register/">上一篇</a>中，我们已经注册好了域名，现在就缺少解析域名这一步了</p>
+<h1 id="解析域名"><a href="#解析域名" class="headerlink" title="解析域名"></a>解析域名</h1><p>前往<a href="https://www.cloudflare.com/">Cloudfllare</a>，注册并登录后点击添加站点</p>
+<p>输入你刚刚注册的域名并点击添加站点</p>
+<p>然后选择0元的套餐并继续</p>
+<p><img src="/p/domain-name-resolution/cf-select-plan.png"></p>
+<p>到下一个界面添加DNS记录。</p>
+<h2 id="DNS设置"><a href="#DNS设置" class="headerlink" title="DNS设置"></a>DNS设置</h2><p>你可以按需求配置DNS</p>
+<h1 id="更改名称服务器"><a href="#更改名称服务器" class="headerlink" title="更改名称服务器"></a>更改名称服务器</h1><p>完成后点击保存，进入下一界面后 <strong>复制两个Cloudflare的名称服务器地址</strong></p>
+<p>进入<a href="https://www.freenom.com/">Freenom</a>，点击 <code>Services</code> 中的 <code>My Domains</code> ，点击域名后的设置</p>
+<p>进入设置界面后点击 <code>Management Tools</code> 中的 <code>Nameservers</code> ，</p>
+<p>使用自定义并在第一、第二项内分别填入刚刚复制的Cloudflare服务器地址。</p>
+<p>然后点击保存。</p>
+<p><img src="/p/domain-name-resolution/freenom-nameserver.png"></p>
+<h1 id="完成添加"><a href="#完成添加" class="headerlink" title="完成添加"></a>完成添加</h1><p>返回cloudflare，按提示完成后续步骤，完成域名添加。</p>
+<p>之后来到主页查看域名是否有效，有效就为成功。</p>
 ]]></content>
       <categories>
         <category>技术</category>
